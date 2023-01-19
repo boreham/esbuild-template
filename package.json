@@ -1,0 +1,27 @@
+{
+  "name": "esbuild-react-starter",
+  "version": "1.0.0",
+  "description": "starter for react using esbuild as a bundler",
+  "main": "index.jsx",
+  "scripts": {
+    "test": "test",
+    "build": "node esbuild.config.js -build",
+    "start": "node esbuild.config.js -watch"
+  },
+  "keywords": [
+    "esbuild",
+    "react",
+    "starter",
+    "servor"
+  ],
+  "author": "Kong Boreham",
+  "license": "MIT",
+  "dependencies": {
+    "esbuild": "^0.8.46",
+    "react": "^17.0.1",
+    "react-dom": "^17.0.1"
+  },
+  "devDependencies": {
+    "servor": "^4.0.2"
+  }
+}
